@@ -1,27 +1,41 @@
-# FullstackMediatheque
+# Fullstack Médiathque
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.0.1.
+Projet démonstration pour la formation Fullstack de m2i. 
 
-## Development server
+## Objectif
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+Le but de ce projet est de permettre l'apprentissage d'Angular
 
-## Code scaffolding
+## Description
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+Le projet est supposé représenter le site d'une médiathèque de village qui propose quelques DVD en location, ainsi que des albums de musique. 
 
-## Build
+Les composants seront volontairement 'mal' réalisés pour démontrer l'importance de la généricité des composants, et d'illustrer les pièges dans lesquels ont peut tomber, à savoir essayer à tout prix de rendre un composant trop générique pour finalement le rendre trop dépendant (non respect du SOLID).
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+## Lancer le projet
 
-## Running unit tests
+A la racine du projet, taper :
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+```
+npm install
+```
 
-## Running end-to-end tests
+Ensuite, pour démarrer le serveur : 
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+```
+ng serve -o
+```
 
-## Further help
+## Features
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+### HomePage
+
+WIP
+
+### Products
+
+Page qui accueille la liste des produits, rangés par catégorie
+
+### Product
+
+Pas qui permet de voir le détail d'un produit
